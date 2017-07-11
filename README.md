@@ -14,3 +14,9 @@ I wrote a Two factor authentication for a web app that used the following lines 
       sessionStorage.setItem('otpSent', otp); // To check and validate with session of user
 
 As is, stored into the sessionStorage object, the validating part of the OTP is pretty simple - as long as the user's browser is open, the OTP value can be validated. But, what if the security policy defines that the user be allowed 4 hours or 24 hours to validate the OTP and so, has the luxury of closing the browser window? This prompted me to examine the use case for a test double.
+
+Before venturing into test doubles, here is a simpler version of tackling the asynchronicity of MongoDb and Node.Js
+
+Pre-requisites: MongoDb, NodeJS, SuperTest,Mocha
+
+Please use the "users" document to import the data document for the test case. This example is an extension of the other repos related to the "./lib/users.js", which had used static data in the other examples.
