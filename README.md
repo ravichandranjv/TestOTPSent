@@ -17,7 +17,7 @@ As is, stored into the sessionStorage object, the validating part of the OTP is 
 
 Before venturing into test doubles, here is a simpler version of testing the data stored in MongoDb.
 
-Pre-requisites: MongoDb, NodeJS, SuperTest, Mocha
+Pre-requisites: MongoDb, NodeJS, SuperTest, Mocha, express
 
 This example is an extension of the other repos related to the "./lib/users.js", which had used static data in the other examples.
 
