@@ -17,6 +17,8 @@ As is, stored into the sessionStorage object, the validating part of the OTP is 
 
 Before venturing into test doubles, here is a simpler version of tackling the asynchronicity of MongoDb and Node.Js
 
-Pre-requisites: MongoDb, NodeJS, SuperTest,Mocha
+Pre-requisites: MongoDb, NodeJS, SuperTest, Mocha
 
 Please use the "users" document to import the data document for the test case. This example is an extension of the other repos related to the "./lib/users.js", which had used static data in the other examples.
+
+The MongoDB database name is "mydb", the collection name is "users" and the default MongoDB port is used.
